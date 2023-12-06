@@ -1,0 +1,10 @@
+dataset: "Cora"
+
+enc_in_channels: 1433
+enc_hidden_channels: 32
+enc_out_channels: 16
+
+lr: 0.0405
+epoch: 500
+components_num: 3
+alpha: 1.405
