@@ -1,6 +1,6 @@
 # Variational Graph Auto-encoder in Pytorch Geometric
 
-This respository implements variational graph auto-encoder in [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric), adapted from the autoencoder example [code](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/autoencoder.py)  in pyG. For details of the model, refer to Thomas Klpf's original [paper](https://arxiv.org/abs/1611.07308).
+This respository implements Gaussian Mixture - variational graph auto-encoder(GMVAE) in [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric), adapted from the autoencoder example [code](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/autoencoder.py)  in pyG. For details of the model, refer to Thomas Klpf's original [paper](https://arxiv.org/abs/1611.07308).
 
 ## Requirements
 
