@@ -8,13 +8,16 @@ import torch_geometric.transforms as T
 from torch_geometric.utils import train_test_split_edges
 from model import DeepVGAE
 from config.config import parse_args
+from torch_geometric import seed_everything
+
 roc_auc_list = []
 ap_list = []
-total_number = 10
+total_number = 8
+
+torch.cuda.manual_seed_all(42)
 for kk in range(total_number):
     # 设置随机种子
-    torch.manual_seed(kk*0.1)
-
+    torch.cuda.manual_seed(kk)  
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     args = parse_args()
 
