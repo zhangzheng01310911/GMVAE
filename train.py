@@ -14,10 +14,9 @@ roc_auc_list = []
 ap_list = []
 total_number = 8
 
-torch.cuda.manual_seed_all(42)
 for kk in range(total_number):
     # 设置随机种子
-    torch.cuda.manual_seed(kk)  
+    torch.cuda.manual_seed(kk*0.1)  
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     args = parse_args()
 
