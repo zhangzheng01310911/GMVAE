@@ -1,6 +1,6 @@
 # Gaussian Mixture - variational graph auto-encoder(GMVAE) in Pytorch Geometric
 
-This respository implements Gaussian Mixture - variational graph auto-encoder(GMVAE) in [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric), adapted from the autoencoder example [code](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/autoencoder.py)  in pyG. For details of the model, refer to Thomas Klpf's original [paper](https://arxiv.org/abs/1611.07308).
+This repository implements Gaussian Mixture - variational graph auto-encoder(GMVAE) in [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric), adapted from the autoencoder example [code](https://github.com/rusty1s/pytorch_geometric/blob/master/examples/autoencoder.py)  in pyG. F
 
 ##
 
@@ -23,11 +23,3 @@ python train.py --load_config config/vgae.yaml
 ```
 
 ## Result
-
-We follow the arguments set as the original [paper](https://arxiv.org/abs/1611.07308) and the results is shown below. 
-
-| Dataset | AUC |  AP |
-|---------|-----|-----|
-|   Cora  |0.903|0.911|
-| Citeseer|0.869|0.879|
-| Pubmed  |0.948|0.948|
