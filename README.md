@@ -15,7 +15,7 @@ This repository implements Gaussian Mixture - variational graph auto-encoder(GMV
 ## How to run
 ## First, replace the autoencoder.py with that in /Users/zhangzheng/anaconda3/lib/python3.11/site-packages/torch_geometric/nn/models/autoencoder.py in your pytorch geometric install files folder.
 
-1. Configure the arguments in `config/vgae.yaml` file. You can also make your own config file.
+1. Configure the arguments in `config/vgae.yaml` file. You can also make your config file.
 
 2. Specify the config file and run the training script.
 ```
